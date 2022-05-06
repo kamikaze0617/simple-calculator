@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.simpleguicalculator.HelloController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="buttons"/>
+    <Button text="(" onAction="#onHelloButtonClick"/>
+    <Button text="7" onAction="#onHelloButtonClick"/>
+    <Button text="4" onAction="#onHelloButtonClick"/>
+    <Button text="1" onAction="#onHelloButtonClick"/>
+    <Button text="±" onAction="#onHelloButtonClick"/>
+
+    <Button text=")" onAction="#onHelloButtonClick"/>
+    <Button text="8" onAction="#onHelloButtonClick"/>
+    <Button text="5" onAction="#onHelloButtonClick"/>
+    <Button text="2" onAction="#onHelloButtonClick"/>
+    <Button text="0" onAction="#onHelloButtonClick"/>
+
+    <Button text="←" onAction="#onHelloButtonClick"/>
+    <Button text="9" onAction="#onHelloButtonClick"/>
+    <Button text="6" onAction="#onHelloButtonClick"/>
+    <Button text="3" onAction="#onHelloButtonClick"/>
+    <Button text="." onAction="#onHelloButtonClick"/>
+
+    <Button text="÷" onAction="#onHelloButtonClick"/>
+    <Button text="x" onAction="#onHelloButtonClick"/>
+    <Button text="-" onAction="#onHelloButtonClick"/>
+    <Button text="+" onAction="#onHelloButtonClick"/>
+    <Button text="=" onAction="#onHelloButtonClick"/>
+</VBox>
